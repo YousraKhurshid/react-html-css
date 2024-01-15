@@ -1,22 +1,54 @@
-/* Updated responsive CSS for text */
+/* Updated responsive CSS */
 
-/* ... Your existing styles ... */
+.container {
+  position: relative;
+  background-color: rgba(12, 12, 12, 0.6);
+  border-radius: 15px;
+  padding: 73px;
+  margin-top: 129px;
+  z-index: 1;
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.title {
+  color: white;
+  font-size: 35px;
+  font-weight: 700;
+  letter-spacing: 1.75px;
+  text-transform: uppercase;
+  text-align: center; /* Center the title */
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; /* Space out the items */
+}
+
+.aboutImage {
+  width: 30%;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
 
 .aboutItems {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 20px; /* Reduce the gap between items on smaller screens */
-  width: 60%;
+  gap: 50px;
+  width: 60%; /* Take 60% width on smaller screens */
 }
 
 .aboutItem {
   display: flex;
-  flex-direction: column; /* Change to column layout for items on smaller screens */
-  align-items: center; /* Center items horizontally on smaller screens */
+  flex-direction: row;
+  align-items: center;
   border-radius: 20px;
   list-style: none;
-  padding: 15px;
+  padding: 25px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -34,21 +66,32 @@
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
-  text-align: center; /* Center the title text */
 }
 
 .aboutItem p {
   color: black;
-  font-size: 20px; /* Slightly reduce font size for better readability */
-  text-align: center; /* Center the paragraph text */
+  font-size: 25px;
 }
 
 @media screen and (max-width: 830px) {
-  /* ... Your existing media query styles ... */
+  .container {
+    background-color: transparent;
+    padding: 20px; /* Reduce padding for smaller screens */
+  }
+
+  .content {
+    flex-direction: column;
+    align-items: center; /* Center items vertically on smaller screens */
+  }
+
+  .aboutImage {
+    width: 100%;
+    margin: 10px 0;
+  }
 
   .aboutItems {
-    width: 100%;
-    gap: 10px; /* Reduce the gap between items even further on smaller screens */
+    width: 100%; /* Take full width on smaller screens */
+    margin-top: 20px;
   }
 
   .aboutItem {
