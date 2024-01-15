@@ -1,0 +1,52 @@
+/* Home.css */
+#home-section {
+    text-align: center;
+    padding: 50px;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  .home-image {
+    width: 100%;
+    max-width: 1400px;
+    border-radius: 10px;
+    animation: fadeIn 1.5s ease-in-out;
+  }
+  
+  .text-content {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+  
+  p {
+    font-size: 1.2em;
+    color: #ffffff;
+    margin-bottom: 30px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1em;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
