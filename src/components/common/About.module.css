@@ -1,51 +1,22 @@
+/* Updated responsive CSS for text */
 
-.container {
-  position: relative;
-  background-color: rgba(12, 12, 12, 0.6);
-  border-radius: 15px;
-  padding: 73px;
-  margin-top: 129px;
-  z-index: 1;
-  margin-left: 10%;
-  margin-right: 10%;
-}
-
-.title {
-  color: white;
-  font-size: 35px;
-  font-weight: 700;
-  letter-spacing: 1.75px;
-  text-transform: uppercase;
-}
-
-.content {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-
-.aboutImage {
-  width: 30%;
-  margin: 20px;
-  border-radius: 10px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
-  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
+/* ... Your existing styles ... */
 
 .aboutItems {
   color: white;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 20px; /* Reduce the gap between items on smaller screens */
+  width: 60%;
 }
 
 .aboutItem {
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  flex-direction: column; /* Change to column layout for items on smaller screens */
+  align-items: center; /* Center items horizontally on smaller screens */
   border-radius: 20px;
   list-style: none;
-  padding: 25px;
+  padding: 15px;
   background-image: linear-gradient(
     90deg,
     rgba(165, 215, 232, 0.42) 0%,
@@ -63,38 +34,24 @@
 .aboutItem h3 {
   font-size: 25px;
   font-weight: 600;
-}
-
-.aboutItem p{
-  color:black;
+  text-align: center; /* Center the title text */
 }
 
 .aboutItem p {
-  font-size: 25px;
+  color: black;
+  font-size: 20px; /* Slightly reduce font size for better readability */
+  text-align: center; /* Center the paragraph text */
 }
 
 @media screen and (max-width: 830px) {
-  .container {
-    background-color: transparent;
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .content {
-    flex-direction: column;
-  }
-
-  .aboutImage {
-    display: none;
-    
-  }
+  /* ... Your existing media query styles ... */
 
   .aboutItems {
-    margin-top: 29px;
+    width: 100%;
+    gap: 10px; /* Reduce the gap between items even further on smaller screens */
   }
 
   .aboutItem {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 15px;
   }
 }

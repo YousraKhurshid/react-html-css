@@ -1,0 +1,72 @@
+/* ServicesPage.module.css */
+
+#services-container {
+  display: flex;
+  flex-wrap: wrap; /* Allow services to wrap to the next line on smaller screens */
+  justify-content: space-between;
+  max-width: 800px; /* Adjusted max-width for better responsiveness */
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+#services-container h1 {
+  text-align: center;
+}
+
+.service {
+  flex: 1; /* Make services flexible to occupy equal width on larger screens */
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  position: relative;
+  transition: transform 0.3s; /* Adding transition for smooth hover effect */
+}
+
+.service:hover {
+  transform: scale(1.05); /* Scale up the service on hover */
+}
+
+.service img {
+  width: 100%;
+  height: auto;
+  transition: box-shadow 0.3s; /* Adding transition for smooth hover effect */
+}
+
+.service:hover img {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 0 8px 8px 0;
+}
+
+.service-content {
+  padding: 20px;
+}
+
+.service h2 {
+  color: #333;
+}
+
+.service p {
+  color: #666;
+}
+
+@media screen and (max-width: 768px) {
+  .text-content {
+    top: 60%; /* Adjusted top position for better centering on smaller screens */
+  }
+
+  h1 {
+    font-size: 1.5em; /* Adjusted font size for smaller screens */
+  }
+
+  p {
+    font-size: 1em; /* Adjusted font size for smaller screens */
+    margin-bottom: 20px; /* Reduced margin for better spacing on smaller screens */
+  }
+
+  button {
+    padding: 8px 15px; /* Adjusted padding for smaller screens */
+    font-size: 0.9em; /* Adjusted font size for smaller screens */
+  }
+}

@@ -1,52 +1,75 @@
 /* Home.css */
+
 #home-section {
-    text-align: center;
-    padding: 50px;
-    background-color: #f0f0f0;
-    position: relative;
-  }
-  
-  .home-image {
-    width: 100%;
-    max-width: 1400px;
-    border-radius: 10px;
-    animation: fadeIn 1.5s ease-in-out;
-  }
-  
+  text-align: center;
+  padding: 50px;
+  background-color: #f0f0f0;
+  position: relative;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 1400px;
+  border-radius: 10px;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.text-content {
+  position: absolute;
+  top: 50%; /* Adjusted top position for better centering */
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+p {
+  font-size: 1.2em;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
   .text-content {
-    position: absolute;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20%; /* Adjusted top position for better centering on smaller screens */
+    text-align: center;
   }
-  
+
   h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    color: #fff;
+    font-size: 0.7em; /* Adjusted font size for smaller screens */
   }
-  
+
   p {
-    font-size: 1.2em;
-    color: #ffffff;
-    margin-bottom: 30px;
+    font-size: 0.5em; /* Adjusted font size for smaller screens */
+    margin-bottom: 10px; /* Reduced margin for better spacing on smaller screens */
   }
-  
+
   button {
-    padding: 10px 20px;
-    font-size: 1em;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
+    padding: 1px 1px; /* Adjusted padding for smaller screens */
+    font-size: 0.9em; /* Adjusted font size for smaller screens */
   }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
   }
+  to {
+    opacity: 1;
+  }
+}

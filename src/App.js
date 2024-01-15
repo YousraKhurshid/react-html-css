@@ -2,10 +2,8 @@ import './App.css';
 import Navbar from './components/common/Navbar';
 import Home from './components/common/Home';
 import About from './components/common/About';
-import Portfolio from './components/common/Portfolio';
 import Contact from './components/common/Contact';
-import Services from './components/common/Services';
-import BuyNow from './components/common/BuyNow';
+import ServicesPage from './components/common/ServicesPage';
 import Footer from './components/common/Footer.jsx'
 
 const App = () => {
@@ -15,9 +13,7 @@ const App = () => {
       <div>
         <Navbar />
         <Home />
-        <BuyNow />
-        <Services />
-        <Portfolio />
+        <ServicesPage />
         <About />
         <Contact />
         <Footer/>
