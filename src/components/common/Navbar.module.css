@@ -19,16 +19,17 @@
   margin-top: 2rem;
 }
 
+
 .buynow {
   font-size: 2.4rem;
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 .button {
   display: inline-block;
-  padding: 10px 25px;
-  background-color: #f29494;
-  border-radius: 10px;
+  padding: 1.0rem 2.5rem;
+  background-color: #e22121;
+  border-radius: 1.0rem;
   outline: none;
   transition: padding 0.3s ease-in-out; /* Add transition for smoother hover effect */
 }
@@ -61,14 +62,14 @@ li {
 .animated-image {
   width: 5rem;
   height: 5rem;
-  border-radius: 10px;
+  border-radius: 1.0rem;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
 .animated-image:hover {
   transform: scale(1.1);
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 0px 20 rgba(0, 0, 0, 0.8);
 }
 
 .links {
@@ -82,7 +83,7 @@ li {
   text-decoration: none;
   color: #120153;
   font-weight: bold;
-  margin-left: 20px; /* Adjust the spacing between links if needed */
+  margin-left: 2.0rem; /* Adjust the spacing between links if needed */
   transition: color 0.3s, font-size 0.3s; /* Add transitions for smoother hover effect */
 }
 
@@ -95,20 +96,33 @@ li {
 
 @media screen and (max-width: 830px) {
   .background {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 2rem 2%;
+display: flex;    
+    padding: 2.5rem 0.5%;
   }
 
-  .links {
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    flex-direction: column; /* Display links in a column */
-    align-items: flex-end;
-  }
+.links{
+  font-size: 0.9rem;
+  margin-left: 0rem; /* Adjust the spacing between links if needed */
 
-  .links a {
-    margin: 10px 0; /* Add margin between links for better spacing */
+}
+li {
+  display: flex;
+  margin-right: 1rem;
+}
+  .dummy{
+    font-size: 1rem;
   }
+  .animated-image{
+    width: 3rem;
+    height: 3rem;
+  }
+.buynow {
+  font-size: 0.5rem;
+}
+ .button{
+  font-size: 1rem;
+  margin-left: 1rem;
+  padding: 0.1rem 1rem;
+
+ }
 }

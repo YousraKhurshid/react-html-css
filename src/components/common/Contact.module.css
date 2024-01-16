@@ -1,26 +1,26 @@
 
 .container {
   color: black;
-  margin-top: 120px;
+  margin-top: 12.0rem;
   background-color: #0093E9;
     display: flex;
   flex-direction: row;
   justify-content: space-between;
   width: 100vw;
-  padding: 58px 10%;
-  gap: 10px;
+  padding: 5.8rem 10%;
+  gap: 1.0rem;
 }
 
 .text h2 {
-  font-size: 30px;
+  font-size: 3.0rem;
   font-weight: 700;
-  letter-spacing: 4px;
+  letter-spacing: 0.4rem;
 }
 
 .text p {
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: 400;
-  letter-spacing: 2px;
+  letter-spacing: 0.2rem;
 }
 
 .links {
@@ -28,27 +28,27 @@
   flex-direction: column;
   align-items: flex-start;
   list-style: none;
-  gap: 26px;
+  gap: 2.6rem;
 }
 
 .link {
   display: flex;
   align-items: center;
-  gap: 25px;
+  gap: 2.5rem;
 }
 
 .link a {
   color:black;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 2.0rem;
   font-weight: 400;
-  letter-spacing: 1.5px;
+  letter-spacing: 0.15rem;
 }
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 83.0rem) {
   .container {
     flex-direction: column;
-    gap: 23px;
+    gap: 2.3rem;
   }
 
   .text {
@@ -62,5 +62,5 @@
   }
 }
 .links img {
-  height: 40px;
+  height: 4.0rem;
 }

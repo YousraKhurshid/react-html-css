@@ -4,21 +4,22 @@
   display: flex;
   flex-wrap: wrap; /* Allow services to wrap to the next line on smaller screens */
   justify-content: space-between;
-  max-width: 800px; /* Adjusted max-width for better responsiveness */
+  max-width: 80.0rem; /* Adjusted max-width for better responsiveness */
   margin: 0 auto;
-  padding: 20px;
+  padding: 2.0rem;
   text-align: center;
 }
 
-#services-container h1 {
+.services-heading {
+  color: #333;
   text-align: center;
 }
 
 .service {
   flex: 1; /* Make services flexible to occupy equal width on larger screens */
-  margin-bottom: 20px;
-  border: 1px solid #ccc;
-  border-radius: 8px;
+  margin-bottom: 2.0rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.8rem;
   overflow: hidden;
   position: relative;
   transition: transform 0.3s; /* Adding transition for smooth hover effect */
@@ -40,7 +41,7 @@
 }
 
 .service-content {
-  padding: 20px;
+  padding: 2.0rem;
 }
 
 .service h2 {
@@ -62,7 +63,7 @@
 
   p {
     font-size: 1em; /* Adjusted font size for smaller screens */
-    margin-bottom: 20px; /* Reduced margin for better spacing on smaller screens */
+    margin-bottom: 2.0rem; /* Reduced margin for better spacing on smaller screens */
   }
 
   button {

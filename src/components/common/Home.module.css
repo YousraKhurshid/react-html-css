@@ -2,15 +2,15 @@
 
 #home-section {
   text-align: center;
-  padding: 50px;
+  padding: 5.0rem;
   background-color: #f0f0f0;
   position: relative;
 }
 
 .home-image {
   width: 100%;
-  max-width: 1400px;
-  border-radius: 10px;
+  max-width: 140.0rem;
+  border-radius: 1.0rem;
   animation: fadeIn 1.5s ease-in-out;
 }
 
@@ -22,45 +22,45 @@
 }
 
 h1 {
-  font-size: 2em;
-  margin-bottom: 20px;
+  font-size: 2rem;
+  margin-bottom: 2.0rem;
   color: #fff;
 }
 
 p {
   font-size: 1.2em;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 3.0rem;
 }
 
 button {
-  padding: 10px 20px;
+  padding: 1.0rem 2.0rem;
   font-size: 1em;
-  background-color: #3498db;
+  background-color: #ee0a12;
   color: #fff;
   border: none;
   cursor: pointer;
-  border-radius: 5px;
+  border-radius: 0.5rem;
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 830px) {
   .text-content {
     top: 20%; /* Adjusted top position for better centering on smaller screens */
     text-align: center;
   }
 
   h1 {
-    font-size: 0.7em; /* Adjusted font size for smaller screens */
+    font-size: 0.2rem; /* Adjusted font size for smaller screens */
   }
 
   p {
     font-size: 0.5em; /* Adjusted font size for smaller screens */
-    margin-bottom: 10px; /* Reduced margin for better spacing on smaller screens */
+    margin-bottom: 1.0rem; /* Reduced margin for better spacing on smaller screens */
   }
 
   button {
-    padding: 1px 1px; /* Adjusted padding for smaller screens */
+    padding: 0.1rem 0.1rem; /* Adjusted padding for smaller screens */
     font-size: 0.9em; /* Adjusted font size for smaller screens */
   }
 }

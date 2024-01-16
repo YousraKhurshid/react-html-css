@@ -1,13 +1,13 @@
 import React from 'react';
-import styles from './ServicesPage.module.css';
+import styles from './Services.module.css';
 
-const ServicesPage = () => {
+const Services = () => {
   return (
-    <div className={styles.ServicesPage} id="services-container">
-      <h1>Our Services</h1>
+    <div className={styles.Services} id="services-container">
+      <h1 className={styles['services-heading']}>Our Services</h1>
 
       <div className={styles["service"]}>
-        <img src="https://www.elegantthemes.com/blog/wp-content/uploads/2018/12/top11.png" alt="Web Development" />
+        <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*V-Jp13LvtVc2IiY2fp4qYw.jpeg" alt="Web Development" />
         <div className={styles["service-content"]}>
           <h2>Web Development</h2>
           <p>
@@ -29,7 +29,7 @@ const ServicesPage = () => {
       </div>
 
       <div className={styles["service"]}>
-        <img src="https://media.geeksforgeeks.org/wp-content/cdn-uploads/20221219162542/Become-UI-Designer-in-2023.png" alt="UI/UX Design" />
+        <img src="https://media.licdn.com/dms/image/D4D12AQFCAc9opGujrw/article-cover_image-shrink_720_1280/0/1685613726106?e=1710979200&v=beta&t=7Tt9gAzEmC-05ym8RwQ8h_oIua3cacd_zV986a-XUQI" alt="UI/UX Design" />
         <div className={styles["service-content"]}>
           <h2>UI/UX Design</h2>
           <p>
@@ -43,4 +43,4 @@ const ServicesPage = () => {
   );
 };
 
-export default ServicesPage;
+export default Services;

@@ -5,7 +5,7 @@ import styled from 'styled-components';
 const FooterContainer = styled.footer`
   background-color: #222;
   color: #fff;
-  padding: 20px;
+  padding: 2.0rem;
   text-align: center;
 `;
 
@@ -16,24 +16,24 @@ const FooterContent = styled.div`
 `;
 
 const FooterLogo = styled.img`
-  width: 80px;
-  height: 80px;
-  margin-bottom: 10px;
+  width: 8.0rem;
+  height: 8.0rem;
+  margin-bottom: 1.0rem;
 `;
 
 const FooterText = styled.p`
-  font-size: 16px;
+  font-size: 1.6rem;
   line-height: 1.5;
 `;
 
 const SocialIcons = styled.div`
-  margin-top: 20px;
+  margin-top: 2.0rem;
 `;
 
 const SocialIcon = styled.a`
-  margin: 0 10px;
+  margin: 0 1.0rem;
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
   text-decoration: none;
   transition: color 0.3s;
 

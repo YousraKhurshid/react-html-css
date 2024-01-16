@@ -34,7 +34,7 @@ const About = () => {
             </div>
           </li>
           <li className={styles.aboutItem}>
-            <img src='https://lh3.googleusercontent.com/proxy/3S7yiUYh5fHK-L9hUen-cQACOZI1aL-4jd8do-_pDKN2_evgvm0O4k2xgrgw_nsIzFpTkUr4hynKMPYb9W4-KtGkd2fx5tvsRXeI9MWa43B9vnTw' alt="UI icon" className={styles.aboutImage}/>
+            <img src='https://www.hostinger.com/tutorials/wp-content/uploads/sites/2/2022/07/what-is-ux-design.webp' alt="UI icon" className={styles.aboutImage}/>
             <div className={styles.aboutItemText}>
               <h3>UI Designer</h3>
               <p>
