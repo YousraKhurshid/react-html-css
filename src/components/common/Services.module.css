@@ -66,8 +66,15 @@
     top: 60%; /* Adjusted top position for better centering on smaller screens */
   }
 
+  .services-heading {
+    color: #333;
+    text-align: center;
+    font-size: 2.5rem;
+    margin: 5% auto;
+  }
+
   h1 {
-    font-size: 1.5em; /* Adjusted font size for smaller screens */
+    font-size: 1.2em; /* Adjusted font size for smaller screens */
   }
 
   p {
