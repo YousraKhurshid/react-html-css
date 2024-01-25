@@ -52,7 +52,7 @@
   color: #666;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 630px) {
   .text-content {
     top: 60%; /* Adjusted top position for better centering on smaller screens */
   }

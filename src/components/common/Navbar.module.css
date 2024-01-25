@@ -94,7 +94,7 @@ li {
 
 /* ... Your existing styles ... */
 
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 630px) {
   .background {
 display: flex;    
     padding: 2.5rem 0.5%;

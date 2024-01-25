@@ -44,10 +44,11 @@ button {
 }
 
 /* Responsive Styles */
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 630px) {
   .text-content {
-    top: 20%; /* Adjusted top position for better centering on smaller screens */
+    top: 25%; /* Adjusted top position for better centering on smaller screens */
     text-align: center;
+    font-size: 1rem;
   }
 
   h1 {

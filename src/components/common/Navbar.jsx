@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Navbar.module.css';
-import { Route, Routes, Navigate } from 'react-router-dom';
 
 const Navbar = () => {
   return (
