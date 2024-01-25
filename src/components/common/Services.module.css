@@ -1,22 +1,31 @@
 /* ServicesPage.module.css */
 
-#services-container {
+#services {
+  
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap; /* Allow services to wrap to the next line on smaller screens */
   justify-content: space-between;
   max-width: 80.0rem; /* Adjusted max-width for better responsiveness */
   margin: 0 auto;
   padding: 2.0rem;
   text-align: center;
+
 }
 
 .services-heading {
   color: #333;
   text-align: center;
+  font-size: 4rem;
+  margin: 5% auto;
 }
 
 .service {
   flex: 1; /* Make services flexible to occupy equal width on larger screens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 2.0rem;
   border: 0.1rem solid #ccc;
   border-radius: 0.8rem;
@@ -30,7 +39,7 @@
 }
 
 .service img {
-  width: 100%;
+  width: 50%;
   height: auto;
   transition: box-shadow 0.3s; /* Adding transition for smooth hover effect */
 }

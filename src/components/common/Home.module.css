@@ -41,6 +41,10 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 0.5rem;
+  transition: padding 0.3s ease-in-out; 
+}
+.button:hover {
+  padding: 1.0rem 3.0rem;
 }
 
 /* Responsive Styles */

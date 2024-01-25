@@ -18,12 +18,12 @@ const Navbar = () => {
             <a href="/">Home</a>
             <a href="#about">About</a>
             <a href="#contact">Contact</a>
-            <a href="/components/common/Services">Services</a>
+            <a href="#services">Services</a>
             {/* <a href="#portfolio">Portfolio</a> */}
             {/* <a href="#news">News</a> */}
               </div>
               <div>
-              <button className={styles['button']} onClick={() => window.location.href="/components/common/Services"}>
+              <button className={styles['button']} onClick={() => window.location.href="#services"}>
             Buy Now
           </button>        </div>
               
